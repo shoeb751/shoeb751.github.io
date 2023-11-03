@@ -14,13 +14,17 @@
       --accent-1: #a93240;
       font-weight: bold;
       color: var(--text);
+      font-size: 1vw;
     }
+
     body {
       background-color: var(--background);
     }
+
     a {
       color: var(--accent-1)
     }
+
     .box {
       font-family: 'Courier New', monospace;
       float: left;
@@ -37,11 +41,15 @@
       display: flex;
       align-items: center;
       background-color: var(--accent);
+      flex-direction: row;
+      flex-wrap: wrap;
       /* or inline-flex */
     }
+
     .item {
       background-color: var(--secondary);
     }
+
     .item_pri {
       background-color: var(--primary);
     }
@@ -56,11 +64,24 @@
     <div class="box item">Systems Reliability Engineer</div>
   </div>
 
+
+
+  <div class="box container">
+    <div>Interests</div>
+    <div class="box item"><p>Learning about tech - from the bottom up</p></div>
+    <div class="box item"><p>Helping people solve their problems using tech</p></div>
+    <div class="box item"><p>Helping people solve their problems with tech</p></div>
+    <div class="box item"><p>Automating my day to day</p></div>
+    <div class="box item"><p>Building fun lights with different LED kinds</p></div>
+    <div class="box item"><p>Clicking pictures - occasionally</p></div>
+    <div class="box item"><p>Sharing thought in writing - occasionally</p></div>
+  </div>
+
   <div class="box container">
     <div>Get in Touch</div>
-  <div class="box item"><a href="https://github.com/shoeb751">Github</a></div>
-  <div class="box item"><a href="https://shoeb.pw">Blog</a></div>
-  <div class="box item"><a href="https://in.linkedin.com/in/shoeb751">LinkedIn</a></div>
+    <div class="box item"><a href="https://github.com/shoeb751">Github</a></div>
+    <div class="box item"><a href="https://shoeb.pw">Blog</a></div>
+    <div class="box item"><a href="https://in.linkedin.com/in/shoeb751">LinkedIn</a></div>
   </div>
 </body>
 
